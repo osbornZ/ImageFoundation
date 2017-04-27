@@ -5,11 +5,12 @@
 //  Created by zfan on 2017/4/28.
 //  Copyright © 2017年 zfan. All rights reserved.
 //
-
+//  quartz2D 
 //rotation transform \
 UIView中我们通过transform进行的所有操作都是基于view的中心点的;\
 而context中我们进行的操作是基于context的坐标原点
 
+//UIimage+pixel
 
 #import <UIKit/UIKit.h>
 
@@ -68,6 +69,8 @@ typedef NS_ENUM(NSInteger,ResizeMode) {
  @return 结果图
  */
 + (UIImage *)cutImageAccordingToSize:(UIImage *)image ;
+
+- (UIImage*)cropImageWithRect:(CGRect)cropRect;
 
 
 @end
