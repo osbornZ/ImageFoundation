@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843B8CDC1EB2576C004DB971 /* UIImage+Reset.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B8CDB1EB2576C004DB971 /* UIImage+Reset.m */; };
 		8450871D1E98E0E8007D8FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450871C1E98E0E8007D8FAF /* main.m */; };
 		845087201E98E0E8007D8FAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450871F1E98E0E8007D8FAF /* AppDelegate.m */; };
 		845087231E98E0E8007D8FAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845087221E98E0E8007D8FAF /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843B8CDA1EB2576C004DB971 /* UIImage+Reset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Reset.h"; sourceTree = "<group>"; };
+		843B8CDB1EB2576C004DB971 /* UIImage+Reset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Reset.m"; sourceTree = "<group>"; };
 		845087181E98E0E8007D8FAF /* ImageFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8450871C1E98E0E8007D8FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8450871E1E98E0E8007D8FAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 			children = (
 				845087451E98E279007D8FAF /* UIImage+Tint.h */,
 				845087461E98E279007D8FAF /* UIImage+Tint.m */,
+				843B8CDA1EB2576C004DB971 /* UIImage+Reset.h */,
+				843B8CDB1EB2576C004DB971 /* UIImage+Reset.m */,
 			);
 			path = ImageCategory;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843B8CDC1EB2576C004DB971 /* UIImage+Reset.m in Sources */,
 				845087471E98E279007D8FAF /* UIImage+Tint.m in Sources */,
 				845087231E98E0E8007D8FAF /* ViewController.m in Sources */,
 				845087201E98E0E8007D8FAF /* AppDelegate.m in Sources */,
@@ -432,6 +438,7 @@
 				8450873C1E98E0E8007D8FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8450873D1E98E0E8007D8FAF /* Build configuration list for PBXNativeTarget "ImageFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +447,7 @@
 				8450873F1E98E0E8007D8FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
