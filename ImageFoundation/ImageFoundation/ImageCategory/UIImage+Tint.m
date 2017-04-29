@@ -40,6 +40,21 @@
     return tintedImage;
 }
 
+//耗时处理+缓存方案
+- (UIImage *)applyGrayEffect {
+    CIImage *beginImage = [CIImage imageWithCGImage:self.CGImage];
+    CIFilter * filter = [CIFilter filterWithName:@"CIColorControls"];
+    [filter setValue:beginImage forKey:kCIInputImageKey];
+    //  饱和度      0---2
+    [filter setValue:[NSNumber numberWithFloat:0] forKey:@"inputSaturation"];
+    CIImage *outputImage = [filter outputImage];
+    // 转换图片, 创建基于GPU的CIContext对象
+    CIContext *context = [CIContext contextWithOptions: nil];
+    CGImageRef cgimg = [context createCGImage:outputImage fromRect:[outputImage extent]];
+    UIImage *newImg = [UIImage imageWithCGImage:cgimg];
+    CGImageRelease(cgimg);
+    return newImg;
+}
 
 
 @end

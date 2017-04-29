@@ -16,5 +16,6 @@
 
 - (UIImage *) imageWithTintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode;
 
+- (UIImage *)applyGrayEffect;
 
 @end
