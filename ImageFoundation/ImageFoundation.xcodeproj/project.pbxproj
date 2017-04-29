@@ -17,6 +17,8 @@
 		845087361E98E0E8007D8FAF /* ImageFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845087351E98E0E8007D8FAF /* ImageFoundationTests.m */; };
 		845087471E98E279007D8FAF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 845087461E98E279007D8FAF /* UIImage+Tint.m */; };
 		848A08EC1EB4406600F1752A /* UIImage+Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848A08EB1EB4406600F1752A /* UIImage+Pixel.m */; };
+		848A08EF1EB482BE00F1752A /* NSData+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 848A08EE1EB482BE00F1752A /* NSData+Utils.m */; };
+		848A08F21EB484F900F1752A /* oc_message.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A08F11EB484F900F1752A /* oc_message.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		845087461E98E279007D8FAF /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		848A08EA1EB4406600F1752A /* UIImage+Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Pixel.h"; sourceTree = "<group>"; };
 		848A08EB1EB4406600F1752A /* UIImage+Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Pixel.m"; sourceTree = "<group>"; };
+		848A08ED1EB482BE00F1752A /* NSData+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Utils.h"; sourceTree = "<group>"; };
+		848A08EE1EB482BE00F1752A /* NSData+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Utils.m"; sourceTree = "<group>"; };
+		848A08F11EB484F900F1752A /* oc_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oc_message.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +104,10 @@
 				845087271E98E0E8007D8FAF /* Assets.xcassets */,
 				845087291E98E0E8007D8FAF /* LaunchScreen.storyboard */,
 				8450872C1E98E0E8007D8FAF /* Info.plist */,
+				848A08F01EB484F900F1752A /* Resources */,
 				8450871B1E98E0E8007D8FAF /* Supporting Files */,
+				848A08ED1EB482BE00F1752A /* NSData+Utils.h */,
+				848A08EE1EB482BE00F1752A /* NSData+Utils.m */,
 			);
 			path = ImageFoundation;
 			sourceTree = "<group>";
@@ -132,6 +140,14 @@
 				848A08EB1EB4406600F1752A /* UIImage+Pixel.m */,
 			);
 			path = ImageCategory;
+			sourceTree = "<group>";
+		};
+		848A08F01EB484F900F1752A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848A08F11EB484F900F1752A /* oc_message.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 				8450872B1E98E0E8007D8FAF /* LaunchScreen.storyboard in Resources */,
 				845087281E98E0E8007D8FAF /* Assets.xcassets in Resources */,
 				845087261E98E0E8007D8FAF /* Main.storyboard in Resources */,
+				848A08F21EB484F900F1752A /* oc_message.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +258,7 @@
 				848A08EC1EB4406600F1752A /* UIImage+Pixel.m in Sources */,
 				843B8CDC1EB2576C004DB971 /* UIImage+Reset.m in Sources */,
 				845087471E98E279007D8FAF /* UIImage+Tint.m in Sources */,
+				848A08EF1EB482BE00F1752A /* NSData+Utils.m in Sources */,
 				845087231E98E0E8007D8FAF /* ViewController.m in Sources */,
 				845087201E98E0E8007D8FAF /* AppDelegate.m in Sources */,
 				8450871D1E98E0E8007D8FAF /* main.m in Sources */,

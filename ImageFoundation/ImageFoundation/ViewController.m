@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+#import "NSData+Utils.h"
+
+#define  TestImageName   @"oc_message"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self test];
+    
 }
 
 
@@ -26,5 +33,9 @@
 }
 
 
+- (void)test {
+    
+
+}
 
 @end
